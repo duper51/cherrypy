@@ -1,3 +1,15 @@
+v18.1.1
+-------
+
+* :pr:`1774` reverts :pr:`1759` as new evidence emerged that
+  the original behavior was intentional. Re-opens :issue:`1758`.
+
+v18.1.0
+-------
+
+* :issue:`1758` via :pr:`1759`: In the bus, when awaiting a
+  state change, only publish after the state has changed.
+
 v18.0.1
 -------
 
@@ -13,6 +25,12 @@ v18.0.0
   remain an LTS release for bug and security fixes.
 
 * Drop support for Python 3.4.
+
+v17.4.1
+-------
+
+* :issue:`1738` via :pr:`1755`: Restore support for 'bytes'
+  in response headers (backport from v18.0.1).
 
 v17.4.0
 -------
